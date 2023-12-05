@@ -9,6 +9,12 @@ object DataSkripsi {
         "Aprilia Kurnianti"
     )
 
+    val namaDosenKu = listOf(
+        R.string.haris,
+        R.string.djoko,
+        R.string.aprilia
+    )
+
     val dataDosen = listOf(
         R.string.dosenSatu,
         R.string.dosenDua

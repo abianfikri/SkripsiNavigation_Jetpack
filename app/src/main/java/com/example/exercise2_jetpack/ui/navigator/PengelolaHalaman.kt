@@ -40,7 +40,10 @@ fun SkripsiApp(
             modifier = Modifier.padding(innerPadding)
         ) {
             composable(route = PengelolaHalaman.Home.name) {
-                HalamanSatu(onNextButtonClicked = { navHostController.navigate(PengelolaHalaman.Formulir.name) })
+                HalamanSatu(
+                    onNextButtonClicked = {
+                    navHostController.navigate(PengelolaHalaman.Formulir.name) }
+                )
             }
 
             composable(route = PengelolaHalaman.Formulir.name) {
